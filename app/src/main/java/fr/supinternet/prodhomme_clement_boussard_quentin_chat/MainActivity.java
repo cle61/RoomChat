@@ -26,7 +26,8 @@ public class MainActivity extends ListActivity  {
         setContentView(R.layout.activity_main);
 
         Firebase.setAndroidContext(this);
-        mFirebaseRef = new Firebase("https://popping-torch-2139.firebaseio.com");
+        mFirebaseRef = new Firebase("https://supfirechat.firebaseio.com");
+        // https://popping-torch-2139.firebaseio.com
 
         final EditText textEdit = (EditText) this.findViewById(R.id.text_edit);
         Button sendButton = (Button) this.findViewById(R.id.send_button);
